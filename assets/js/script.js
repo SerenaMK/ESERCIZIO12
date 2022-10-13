@@ -9,7 +9,7 @@ let stringaArray = stringa.split("");
 
 document.getElementById("strArray").innerHTML = stringaArray.join(", ");
 document.getElementById("estraiCaratteri").innerHTML = stringa[2] + stringa[1] + stringa[14] + stringa[18];
-document.getElementById("concatena").innerHTML = stringa + " JS";
+document.getElementById("concatena").innerHTML = stringa.concat(" JS");
 
 let indexMpar = stringa.indexOf("mpar");
 let indexMparEnd = stringa.lastIndexOf("ando");
