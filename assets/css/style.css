@@ -11,3 +11,8 @@ body {
 h1 {
     color: white;
 }
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
