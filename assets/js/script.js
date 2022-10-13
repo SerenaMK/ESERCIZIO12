@@ -12,7 +12,7 @@ document.getElementById("estraiCaratteri").innerHTML = stringa[2] + stringa[1] +
 document.getElementById("concatena").innerHTML = stringa + " JS";
 
 let indexMpar = stringa.indexOf("mpar");
-let indexMparEnd = stringa.indexOf("ando");
+let indexMparEnd = stringa.lastIndexOf("ando");
 
 document.getElementById("estraiStringa").innerHTML = stringa.slice(indexMpar, indexMparEnd);
 
